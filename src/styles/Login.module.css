@@ -1,0 +1,8 @@
+/* styles/LoginPage.module.css */
+.mainContainer {
+    display: flex;
+    justify-content: center; /* Pusatkan konten horizontal */
+    align-items: center; /* Pusatkan konten vertikal */
+    height: 100vh; /* Gunakan tinggi penuh viewport */
+}
+

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header h2{
+  margin: 10px;
+}
+
+.searchContainer {
+  margin: 10px 0;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+}
+
+
+.smallrow {
+  width: 100px; /* Lebar untuk baris kecil */
+}
+
+.mediumsmallrow {
+  width: 150px; /* Lebar untuk baris sedang kecil */
+}
+
+.mediumrow {
+  width: 200px; /* Lebar untuk baris sedang */
+}
+
+.largerow {
+  width: 400px; /* Lebar untuk baris besar */
+}

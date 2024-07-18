@@ -1,0 +1,62 @@
+
+  .content {
+    margin-left: 250px; /* Same as the width of the sidebar */
+    padding: 20px;
+    flex-grow: 1; /* Allow content to grow */
+  }
+  
+  .contint {
+    margin-left: 0px; /* Same as the width of the sidebar */
+    padding: 20px;
+    flex-grow: 1; /* Allow content to grow */
+  }
+
+  .box-container {
+    display: flex; /* Menggunakan flexbox untuk mengatur posisi elemen */
+    justify-content: space-between; /* Menyebarkan elemen di dalam flex container secara merata */
+  }
+  .fakturcoy{
+    margin-top: 500px;
+  }
+.box {
+  width: 45%;
+  margin: 0;
+  margin-top: 10px;
+  float: left; /* Menggunakan float untuk memposisikan elemen di kiri */
+  text-align: left;
+}
+
+.box2 {
+  width: 45%;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 110px;
+  float: left; /* Menggunakan float untuk memposisikan elemen di kiri */
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    float: left; /* Menggunakan float untuk memposisikan elemen di kiri */
+    text-align: left;
+  }
+  .box2 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 0px;
+    float: left; /* Menggunakan float untuk memposisikan elemen di kiri */
+    text-align: left;
+  }
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-left: 0px; /* Same as the width of the sidebar */
+    padding: 10px;
+    flex-grow: 1; /* Allow content to grow */
+  }
+}

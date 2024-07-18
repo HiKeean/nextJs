@@ -1,0 +1,59 @@
+/* LoginCard.module.css */
+.card {
+    width: 400px;
+    padding: 20px;
+    text-align: center; /* Pusatkan konten horizontal */
+    margin: auto; /* Pusatkan konten vertikal */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure navbar is on top of other content */
+  }
+
+  .inputContainer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+.logoimg {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center; /* Menyatukan logo ke tengah secara horizontal */
+  }
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between; /* Membuat elemen di dalam <li> berada di sisi kiri dan kanan */
+  margin-bottom: 5px;
+}

@@ -1,0 +1,42 @@
+.sidebar {
+  height: 100vh; /* Full height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fix the sidebar on the left side */
+  top: 10vh;
+  left: 0;
+  background-color: #fff; /* Black background color */
+  border: 1px solid #ccc; /* Light grey border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; 
+}
+
+.sidebar ul li {
+  padding: 8px 16px; /* Some padding */
+  padding-left: 0px;
+  text-align: center; /* Center-align text */
+  height: 50px; /* Set height */
+  width: 250px; /* Set width */
+  height: 50px;
+}
+
+.sidebar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* White text color */
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  box-sizing: border-box;
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(255, 157, 0); /* Darker background on hover */
+}
+/* Style for active link */
+.navLinks li.active {
+  background-color: rgb(255, 157, 0); /* Blue background for active link */
+}
